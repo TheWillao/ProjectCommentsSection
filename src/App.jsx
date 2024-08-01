@@ -23,7 +23,6 @@ function App() {
     setPost((state) => [newComment, ...state]);
     setComment("");
     setEmail("");
-    console.log(posts);
   };
 
   return (
